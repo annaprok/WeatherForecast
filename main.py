@@ -11,6 +11,6 @@ for index, pixel in ndenumerate(filtered_pixels):
     if pixel.any():  # even one nonzero pixel
         latitudes.append(index[0])
         longitudes.append(index[1])
-        codes.append(pixel  )
+        codes.append(pixel)
 
 write_data_to_netCDF_file(latitudes, longitudes, codes)
