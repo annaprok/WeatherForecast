@@ -11,7 +11,7 @@ def filter_image(file_path):
     lower_blue = np.array([0, 0, 252, 255], dtype=np.uint8)
     upper_blue = np.array([0, 252, 252, 255], dtype=np.uint8)
     lower_green = np.array([0, 131, 0, 255], dtype=np.uint8)
-    upper_green = np.array([67, 223, 35, 255], dtype=np.uint8)
+    upper_green = np.array([67, 224, 35, 255], dtype=np.uint8)
     lower_yellow = np.array([255, 187, 0, 255], dtype=np.uint8)
     upper_yellow = np.array([255, 255, 5, 255], dtype=np.uint8)
 
